@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB APPLICATI0N</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="apply-box">
+            <h1 class="jobb">Job Application <span style="font-size:large ">(Web)</span></h1>
+            <form action="">
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" id="first_name" placeholder="Enter first name">
+                    </div>
+
+                    <div class="form_control">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" id="last_name" placeholder="Enter last name">
+                    </div>
+
+                    <div class="form_control">
+                        <label for="last_name">Last Name</label>
+                        <input type="email" name="email" id="email" placeholder="Enter email">
+                        <!-- 
+                        IN THE <input> tag , YOU MUST BE CAREFUL WHILE APPLYIGN THE TYPE OF INPUT,
+                        THE TYPE BY WHICH YOU APPLU INPUT WILL DETERMINE THE PROPER INOUT
+                        FOR TYPE-EMAIL;;;
+                        ONLY EMAIL ID WILL BE ALLOWED BY COMPUTER
+                        FOR TYPE NUMBER;;;
+                        ONLY NUMBERS WILL BE TAKEN AS INPUT
+                        THE 'FOR' SECTION IN THE LABEL TAG WILL BE USED SO THAT IF ANYONE CLICKS 
+                        INSTEAD OF INPUT SPACE AND CLICKS ON THE NAME OF SECTION,CURSOR AUTOMATICALLY
+                         WILL BLINK IN SPACE PROVIDED. 
+                        Placeholder will be the text that will appear on the space if user hasnt typed
+                    anything on it and cursor isnt placed on it-->
+
+                    </div>
+
+                    <div class="form_control">
+                        <label for="last_name">Last Name</label>
+                        <!--
+                            <select > tag is for kind of dropdown menu that provide you with option that you can select -->
+
+                        <select name="select" id="select">
+                            <option value="">Select from below</option>
+                            <option value="Frontend">Frontend Dev</option>
+                            <option value="Backend">Backend Dev</option>
+                            <option value="FullStack">FullStack Dev</option>
+                        </select>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="last_name">Address</label>
+                        <!-- 
+                        <textarea>TEXTAREA TAG IS USED TO PROVIDE SPACE TO 
+                            THE USER SO THAT HE CAN ENTER INFO IN THE GIVEN SPACE -->
+
+                        <textarea name="Address" id="Address" cols="4" rows="5" class="address"></textarea>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city" style="border-radius: 70px;">
+                    </div>
+
+                    <div class="form_control">
+                        <label for="pincode">Pincode</label>
+                        <input type="number" name="pincode" id="pincode">
+                    </div>
+
+                    <div class="form_control">
+                        <label for="date">Date</label>
+                        <input type="date" name="date" id="date">
+                    </div>
+
+                    <div class="form_control">
+                        <label for="cv">CV</label>
+                        <input type="file" name="cv" id="cv">
+                    </div>
+
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

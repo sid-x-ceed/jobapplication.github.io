@@ -1,0 +1,67 @@
+* {
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(252, 252, 251);
+    /* s */
+
+
+}
+
+.jobb {
+    padding: 15px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    /* 
+    TO PLACE ANYTHING AT CENTER OF ANY PARENT CONTAINER: -----;
+    SET WIDTH OF HOW MUCH LENGTH YOU HAVE TO SET IT AT AND THEN 
+    APPLY-----
+    margin:0 auto;
+    IT WILL AUTOMATICALLY CENTER THE ELEMENT */
+
+
+
+}
+
+
+
+.apply-box {
+    width: 600px;
+    height: 690px;
+    padding: 10px;
+    background-color: rgb(230, 230, 111);
+    margin: 0 auto;
+    margin-top: 60PX;
+    box-shadow: 4px 6px 8px rgba(1, 1, 1, 0.6);
+
+}
+
+.form_container {
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 120px);
+    align-items: center;
+    font-size: larger;
+}
+
+.form_control {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+input,
+select,
+textarea {
+    border-radius: 5px;
+    font-size: small;
+    border-color: 10px slategrey;
+    border-style: groove;
+    padding: 6px 10px;
+}
